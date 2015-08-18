@@ -1,0 +1,16 @@
+From iizogii at gmail.com  Wed Dec 21 12:16:34 2005
+From: iizogii at gmail.com (Mike McGavin)
+Date: Thu, 22 Dec 2005 00:16:34 +1300
+Subject: [Ephemeritis-dev] 0.4.4 released
+Message-ID: <45d38ec30512210316r2382a729j@mail.gmail.com>
+
+Version 0.4.4's released.
+
+The download's available at
+https://developer.berlios.de/project/showfiles.php?group_id=5406
+
+Enjoy.
+
+Mike.
+
+

@@ -1,0 +1,73 @@
+From iizogii at gmail.com  Tue Nov 29 10:22:02 2005
+From: iizogii at gmail.com (Mike McGavin)
+Date: Tue, 29 Nov 2005 22:22:02 +1300
+Subject: [Ephemeritis-dev] 0.4.3 released
+Message-ID: <45d38ec30511290122s7bd9aed1g@mail.gmail.com>
+
+Just for the record, I've released 0.4.3 to get things going.  Here
+are some badly formatted notes.
+
+Hooray.
+Mike.
+
+
+Initial release of Ephemeritis
+==============================
+
+Release Notes
+
+This is the initial release of Ephemeritis, which is by no means complete.
+Lots of credit needs to go to William McClain, who wrote Astrolabe upon
+which Ephemeritis is based.  Credit should also go to Jean Meeus, of course,
+who compiled or designed, and published most of the algorithims upon which
+Ephemeritis (and Astrolabe) have been based.
+
+Compilation and installation follows the same pattern as most GNU Autotools
+packages:
+
+./configure
+make
+make install
+
+'make doxygen-doc' should generate the doxygen API documentation from the
+code in the doxygen-doc/html/ directory.
+
+You may need to pass various parameters to the configure script depending on
+your setup.  Try './configure --help' if you'd like to see what's available.
+
+Ephemeritis isn't ready to be used at the moment, unless you know a little
+about what you're doing.  The API is nowhere near stable, and much of the
+code and algorithms aren't properly tested.  If you're interested in helping
+as a developer or otherwise, please let me know.  It would be especially
+helpful to have someone who has experience in ephemeris calculations,
+because I'm learning a lot of this as I go, but any enthusiastic assistance
+would be appreciated.
+
+Join the dev mailing list if you'd like to be involved or kept up to date in
+any way.
+
+Mike McGavin.
+izogi at mail.berlios.de
+
+
+Initial release of Ephemeritis
+==============================
+
+Changes Log
+
+* Renamed code references from Astrolabe to Ephemeritis.
+* Re-packaged using GNU Autotools.
+* Ported C++ code to C code.
+* Moved external astrolabe configuration file variables to internal function
+parameters.
+* Incorporated VSOP table data inside compiled code, instead of the separate
+text file.  I'm not sure what the best way is to deal with it at this point,
+but I personally prefer it being compiled for now.
+* Removed Astrolabe example programs (except for validate_meeus, to use for
+unit testing).
+* Added precession code.
+* Added atmospheric refraction code.
+* Updated documentation in Doxygen format.
+* Many other adjustments and additions.
+
+
